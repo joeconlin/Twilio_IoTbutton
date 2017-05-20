@@ -1,16 +1,17 @@
-Deploy this as a python 3 lambda function
+#Twilio IoT Button
 
-set the Twilio Environment variables based on your Twilio API credentials
+* Deploy this as a python 3 lambda function
 
-configure the "to" and "from" numbers in this python script
+* set the Twilio Environment variables based on your Twilio API credentials
 
-If you want to tweak the message, replace the "url" link with the TwiML file of your choice
-* Note, if using an S3 bucket, make sure you set your CORS policy to allow the GET method
+* configure the "to" and "from" numbers in this python script
 
-Load up your IoT button in your phone app and follow the instructions to register
+* If you want to tweak the message, replace the "url" link with the TwiML file of your choice
+** Note, if using an S3 bucket, make sure you set your CORS policy to allow the GET method
 
-select this lambda function
+* Load up your IoT button in your phone app and follow the instructions to register
 
-Launch and go!
+* select this lambda function
 
-# Twilio_IoTbutton
+* Launch and go!
+
